@@ -1,0 +1,14 @@
+CNN(
+  (sq1): Sequential(
+    (0): Conv1d(1, 6, kernel_size=(5,), stride=(2,), padding=(1,))
+    (1): ReLU()
+  )
+  (sq2): Sequential(
+    (0): Conv1d(6, 16, kernel_size=(5,), stride=(2,), padding=(1,))
+    (1): ReLU()
+  )
+  (sq3): Sequential(
+    (0): Linear(in_features=2480, out_features=5, bias=True)
+  )
+)
+Namespace(airpls=True, SG=True, n_epochs=2000, batch_size=128, lr=0.0002, l2=0.0002)
